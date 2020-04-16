@@ -51,13 +51,49 @@
         <div class="col-md-4 col-sm-4">
           <h2 class="ser-title">Our Service</h2>
           <hr class="botm-line">
-           <ul class="dropdown-content">
-                <li><a href="#about" class="header_menu" data-ref="profil" style="color: #0cb8b6; padding-top:10px;">Profil</a></li>
-                <li><a href="#about" style="color: #0cb8b6; padding-top:10px;">Visi & Misi</a></li>
-                <li><a href="#about" style="color: #0cb8b6; padding-top:10px;">Sejarah</a></li>
-                <li><a href="#about" style="color: #0cb8b6; padding-top:10px;">Salam Pimpinan</a></li>
-                <li><a href="#about" style="color: #0cb8b6; padding-top:10px;">Akreditasi</a></li>
-            </ul>
+           <div class="btn-group-vertical">
+                <button class="btn default" data-toggle="collapse" data-target="#profil" style="color: #000000; padding-top:10px;">Profil</button>
+                <div id="profil" class="collapse">
+                <div class="testi-info">
+                <a href="#"><img src="<?= base_url('assets/img/thumb.png') ?>" alt="" class="img-responsive"></a>
+                <h3>Alex<span>Texas</span></h3>
+                </div>
+                <div class="col-md-9">
+                <div class="testi-details">
+                <!-- Paragraph -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                </div>
+                </div>
+                <button class="btn default" data-toggle="collapse" data-target="#visimisi" style="color: #000000; padding-top:10px;">Visi & Misi</button>
+                <div id="visimisi" class="collapse">
+                <div class="more-features-box-text-description">
+                <h3>It's something important you want to know.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                </div>
+                </div>
+                <button class="btn default" data-toggle="collapse" data-target="#sejarah" style="color: #000000; padding-top:10px;">Sejarah</button>
+                <div id="sejarah" class="collapse">
+                <div class="more-features-box-text-description">
+                <h3>It's something important you want to know.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+              </div>
+                </div>
+                <button class="btn default" data-toggle="collapse" data-target="#salam" style="color: #000000; padding-top:10px;">Salam Pimpinan</button>
+                <div id="salam" class="collapse">
+                <div class="more-features-box-text-description">
+                <h3>It's something important you want to know.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+              </div>
+                </div>
+                <button class="btn default" data-toggle="collapse" data-target="#akreditasi" style="color: #000000; padding-top:10px;">Akreditasi</button>
+                <div id="akreditasi" class="collapse">
+                <div class="more-features-box-text-description">
+                <h3>It's something important you want to know.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+              </div>
+                </div>
+            </div>
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="service-info">

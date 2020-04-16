@@ -18,5 +18,9 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
   ======================================================= -->
+  <style>
+    .default {background-color: #ffffff;}
+    .default:hover {background: #0cb8b6;}
+  </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
