@@ -19,8 +19,57 @@
     Author URL: https://bootstrapmade.com
   ======================================================= -->
   <style>
-    .default {background-color: #ffffff;}
-    .default:hover {background: #0cb8b6;}
+body {font-family: "Lato", sans-serif;}
+
+.tab {
+  float: left;
+  background-color: #ffffff;
+  width: 10%;
+  height: 300px;
+}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  transition:0.3s;
+  color: black;
+  padding:10px 22px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #f1f1f1;
+}
+
+.tab button.active {
+  background-color: #0cb8b6;
+}
+
+.tabcontent {
+  float: left;
+  overflow-x:auto;
+  padding: 0px 12px;
+  text-align:center;
+  border:none;
+  height: 240px;
+  display: none;
+  white-space:nowrap;
+}
+
+.icon-info{
+  font-size:8vw;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   </style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="20">

@@ -48,94 +48,116 @@
   <section id="service" class="section-padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-4">
           <h2 class="ser-title">Our Service</h2>
           <hr class="botm-line">
-           <div class="btn-group-vertical">
-                <button class="btn default" data-toggle="collapse" data-target="#profil" style="color: #000000; padding-top:10px;">Profil</button>
-                <div id="profil" class="collapse">
-                <div class="testi-info">
-                <a href="#"><img src="<?= base_url('assets/img/thumb.png') ?>" alt="" class="img-responsive"></a>
-                <h3>Alex<span>Texas</span></h3>
-                </div>
-                <div class="col-md-9">
-                <div class="testi-details">
-                <!-- Paragraph -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                </div>
-                </div>
-                <button class="btn default" data-toggle="collapse" data-target="#visimisi" style="color: #000000; padding-top:10px;">Visi & Misi</button>
-                <div id="visimisi" class="collapse">
-                <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
-                </div>
-                </div>
-                <button class="btn default" data-toggle="collapse" data-target="#sejarah" style="color: #000000; padding-top:10px;">Sejarah</button>
-                <div id="sejarah" class="collapse">
-                <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
-              </div>
-                </div>
-                <button class="btn default" data-toggle="collapse" data-target="#salam" style="color: #000000; padding-top:10px;">Salam Pimpinan</button>
-                <div id="salam" class="collapse">
-                <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
-              </div>
-                </div>
-                <button class="btn default" data-toggle="collapse" data-target="#akreditasi" style="color: #000000; padding-top:10px;">Akreditasi</button>
-                <div id="akreditasi" class="collapse">
-                <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
-              </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="service-info">
+          <div class="col-sm-2">
+          <div class="tab">
+          <div class="btn-group">
+          <button class="tablinks" onclick="openCity(event, 'Profil')">Profile</button>
+            <button class="tablinks" onclick="openCity(event, 'VisiMisi')">Visi & Misi</button>
+            <button class="tablinks" onclick="openCity(event, 'Sejarah')">Sejarah</button>
+            <button class="tablinks" onclick="openCity(event, 'Salam')">Salam Pimpinan</button>
+            <button class="tablinks" onclick="openCity(event, 'Akreditasi')">Akreditasi</button>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-10">
+    <div id="Profil" class="tabcontent">
+    <h3>Profile</h3>
+    <div class="col-md-6 col-sm-4">
+    <div class="service-info">
             <div class="icon">
-              <i class="fa fa-stethoscope"></i>
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Profile</h4>
+              <p style="margin-left:-100px">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-6 col-sm-4">
+    <div class="service-info" style="margin-left:100px;">
+            <div class="icon">
+              <i class="fa fa-user" style="text-align:center;"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Profile</h4>
+              <p style="margin-left:155px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+          </div>
+    </div>
+  </div>
+
+<div id="VisiMisi" class="tabcontent">
+  <h3>Visi & Misi</h3>
+  <div class="service-info">
+            <div class="icon">
+              <i class="fa fa-eye"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Visi Misi</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+</div>
+
+<div id="Sejarah" class="tabcontent">
+  <h3>Sejarah</h3>
+  <div class="service-info">
+            <div class="icon">
+              <i class="fa fa-history"></i>
             </div>
             <div class="icon-info">
               <h4>24 Hour Support</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-          <div class="service-info">
+</div>
+
+<div id="Salam" class="tabcontent">
+  <h3>Salam Pimpinan</h3>
+  <div class="service-info">
             <div class="icon">
-              <i class="fa fa-ambulance"></i>
+              <i class="fa fa-book"></i>
             </div>
             <div class="icon-info">
-              <h4>Emergency Services</h4>
+              <h4>24 Hour Support</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
+</div>
+
+<div id="Akreditasi" class="tabcontent">
+  <h3>Akreditasi</h3>
+  <div class="service-info">
+            <div class="icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="icon-info">
+              <h4>24 Hour Support</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+</div>
+<div class="clearfix"></div>
+    </div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
         </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="service-info">
-            <div class="icon">
-              <i class="fa fa-user-md"></i>
-            </div>
-            <div class="icon-info">
-              <h4>Medical Counseling</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-          <div class="service-info">
-            <div class="icon">
-              <i class="fa fa-medkit"></i>
-            </div>
-            <div class="icon-info">
-              <h4>Premium Healthcare</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
   <!--/ service-->
@@ -162,8 +184,8 @@
           <div class="col-md-4 col-sm-4 mt-boxy-3">
             <div class="mt-boxy-color"></div>
             <div class="time-info">
-              <h3>Opening Hours</h3>
-              <table style="margin: 8px 0px 0px;" border="1">
+              <h3> <center>Opening Hours</center></h3>
+              <table style="margin: 8px 55px 0px;">
                 <tbody>
                   <tr>
                     <td>Monday - Friday</td>
@@ -201,7 +223,7 @@
         <div class="col-md-9 col-sm-8 col-xs-12">
           <div style="visibility: visible;" class="col-sm-9 more-features-box">
             <div class="more-features-box-text">
-              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+            <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
                 <h3>It's something important you want to know.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
