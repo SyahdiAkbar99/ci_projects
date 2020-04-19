@@ -50,45 +50,78 @@
       <div class="row">
           <h2 class="ser-title">Our Service</h2>
           <hr class="botm-line">
-          <div class="col-sm-2">
+          <div class="col-md-4 col-sm-4">
           <div class="tab">
-          <div class="btn-group">
-          <button class="tablinks" onclick="openCity(event, 'Profil')">Profile</button>
-            <button class="tablinks" onclick="openCity(event, 'VisiMisi')">Visi & Misi</button>
-            <button class="tablinks" onclick="openCity(event, 'Sejarah')">Sejarah</button>
-            <button class="tablinks" onclick="openCity(event, 'Salam')">Salam Pimpinan</button>
-            <button class="tablinks" onclick="openCity(event, 'Akreditasi')">Akreditasi</button>
-          </div>
+          <ul class="dropdown-content">
+          <li><a href="#service" class="header_menu" data-ref="profil" style="color: #0cb8b6; padding-top:10px;" onclick="openCity(event, 'Profil')">Profile</a></li>
+            <li><a href="#service"  style="color: #0cb8b6; padding-top:10px;" onclick="openCity(event, 'VisiMisi')">Visi & Misi</a></li>
+            <li><a href="#service"  style="color: #0cb8b6; padding-top:10px;" onclick="openCity(event, 'Sejarah')">Sejarah</a></li>
+            <li><a href="#service"  style="color: #0cb8b6; padding-top:10px;" onclick="openCity(event, 'Salam')">Salam Pimpinan</a></li>
+            <li><a href="#service"  style="color: #0cb8b6; padding-top:10px;" onclick="openCity(event, 'Akreditasi')">Akreditasi</a></li>
+          </ul>
       </div>
     </div>
-    <div class="col-md-10">
+    
+    <div class="col-md-8 col-sm-4">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="<?= base_url('assets/img/24 hour.png')?>" alt="24 Hour" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="<?= base_url('assets/img/Emergency Service.png')?>" alt="Emergency" style="width:100%;">
+      </div>
+    
+      <div class="item">
+      <img src="<?= base_url('assets/img/Medical Conseling.png')?>" alt="Emergency" style="width:100%;">
+      </div>
+
+      <div class="item">
+      <img src="<?= base_url('assets/img/Premium Healthcare.png')?>" alt="Emergency" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <div class="icon">
+        <i class="fa fa-chevron-left"></i>
+      </div>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <div class="icon">
+        <i class="fa fa-chevron-right"></i>
+      </div>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+
+  <div class="col-md-4 col-sm-4">
     <div id="Profil" class="tabcontent">
     <h3>Profile</h3>
-    <div class="col-md-6 col-sm-4">
     <div class="service-info">
             <div class="icon">
               <i class="fa fa-user"></i>
             </div>
             <div class="icon-info">
               <h4>Our Profile</h4>
-              <p style="margin-left:-100px">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
             </div>
-          </div>
+          </div>  
     </div>
-    <div class="col-md-6 col-sm-4">
-    <div class="service-info" style="margin-left:100px;">
-            <div class="icon">
-              <i class="fa fa-user" style="text-align:center;"></i>
-            </div>
-            <div class="icon-info">
-              <h4>Our Profile</h4>
-              <p style="margin-left:155px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
-            </div>
-          </div>
-    </div>
-  </div>
-
-<div id="VisiMisi" class="tabcontent">
+    <div id="VisiMisi" class="tabcontent">
   <h3>Visi & Misi</h3>
   <div class="service-info">
             <div class="icon">
@@ -96,49 +129,65 @@
             </div>
             <div class="icon-info">
               <h4>Our Visi Misi</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
             </div>
           </div>
-</div>
-
-<div id="Sejarah" class="tabcontent">
+      </div>
+      <div id="Sejarah" class="tabcontent">
   <h3>Sejarah</h3>
   <div class="service-info">
             <div class="icon">
               <i class="fa fa-history"></i>
             </div>
             <div class="icon-info">
-              <h4>24 Hour Support</h4>
+              <h4>Our History</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-</div>
-
-<div id="Salam" class="tabcontent">
+    </div>
+    <div id="Salam" class="tabcontent">
   <h3>Salam Pimpinan</h3>
   <div class="service-info">
             <div class="icon">
               <i class="fa fa-book"></i>
             </div>
             <div class="icon-info">
-              <h4>24 Hour Support</h4>
+              <h4>Regards Leader</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-</div>
-
-<div id="Akreditasi" class="tabcontent">
+    </div>
+    <div id="Akreditasi" class="tabcontent">
   <h3>Akreditasi</h3>
   <div class="service-info">
             <div class="icon">
               <i class="fa fa-home"></i>
             </div>
             <div class="icon-info">
-              <h4>24 Hour Support</h4>
+              <h4>Our Acreditation</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
+  </div>
+  </div>
+  
+  <!-- <div class="col-md-8 col-sm-4">
+  
 </div>
+
+<div class="col-md-8 col-sm-4">
+
+</div>
+
+<div class="col-md-8 col-sm-4">
+
+</div>
+
+<div class="col-md-8 col-sm-4">
+
+</div> -->
+
+
 <div class="clearfix"></div>
     </div>
 

@@ -24,23 +24,10 @@ body {font-family: "Lato", sans-serif;}
 .tab {
   float: left;
   background-color: #ffffff;
-  width: 10%;
   height: 300px;
+  position : static;
 }
 
-.tab button {
-  display: block;
-  background-color: inherit;
-  transition:0.3s;
-  color: black;
-  padding:10px 22px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  font-size: 17px;
-}
 
 .tab button:hover {
   background-color: #f1f1f1;
@@ -52,23 +39,46 @@ body {font-family: "Lato", sans-serif;}
 
 .tabcontent {
   float: left;
-  overflow-x:auto;
-  padding: 0px 12px;
+  width: 100%;
+  margin-left:550px;
+  padding: 12px 12px;
   text-align:center;
-  border:none;
   height: 240px;
+  margin-top:-10px;
   display: none;
-  white-space:nowrap;
+  position : static;
+  /* border:1px solid; */
+}
+ 
+.carousel-inner{
+  background-color: #0cb8b6;
+  color : #0cb8b6;
 }
 
-.icon-info{
-  font-size:8vw;
+.carousel-slide{
+  top:10px;
+  position : relative;
 }
 
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+.fa-chevron-left{
+  padding-top:175px;
+  padding-right:60px;
+  text-align:center;
+}
+
+.fa-chevron-right{
+  padding-top:165px;
+  padding-left:60px;
+  text-align:center;
+}
+
+.carousel-indicators li{
+  background-color:#0cb8b6;
 }
   </style>
 </head>
