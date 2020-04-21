@@ -61,33 +61,395 @@
           </ul>
       </div>
     </div>
-    
+    <div class="col-md-6 col-sm-4">
+
     <div class="col-md-8 col-sm-4">
+    <div id="Profil" class="tabcontent">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
+    <!-- <ol class="carousel-indicators ">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+    </ol> -->
 
     <!-- Wrapper for slides -->
+    <h3 style="padding-top:20px;">Profile</h3>
     <div class="carousel-inner">
       <div class="item active">
-        <img src="<?= base_url('assets/img/24 hour.png')?>" alt="24 Hour" style="width:100%;">
+      <div class="icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Profile</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+              <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+            </div>
       </div>
-
+      
       <div class="item">
-        <img src="<?= base_url('assets/img/Emergency Service.png')?>" alt="Emergency" style="width:100%;">
+      <div class="icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Profile</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
       </div>
     
       <div class="item">
-      <img src="<?= base_url('assets/img/Medical Conseling.png')?>" alt="Emergency" style="width:100%;">
+      <div class="icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Profile</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
       </div>
 
       <div class="item">
-      <img src="<?= base_url('assets/img/Premium Healthcare.png')?>" alt="Emergency" style="width:100%;">
+      <div class="icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Profile</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <div class="icon">
+        <i class="fa fa-chevron-left"></i>
+      </div>
+      <!-- <span class="sr-only">Previous</span> -->
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <div class="icon">
+        <i class="fa fa-chevron-right"></i>
+      </div>
+      <!-- <span class="sr-only">Next</span> -->
+    </a>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-sm-4">
+    <div id="VisiMisi" class="tabcontent">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators ">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol> -->
+
+    <!-- Wrapper for slides -->
+    <h3 style="padding-top:20px;">Visi & Misi</h3>
+    <div class="carousel-inner">
+          <div class="item active">
+            <div class="icon">
+            <i class="fa fa-eye"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Visi & Misi</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+              <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+            </div>
+      </div>
+      
+      <div class="item">
+            <div class="icon">
+            <i class="fa fa-eye"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Visi & Misi</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+      </div>
+    
+      <div class="item">
+            <div class="icon">
+            <i class="fa fa-eye"></i>
+            </div>
+            <div class="icon-info">
+            <h4>Our Visi & Misi</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+      </div>
+
+      <div class="item">
+      <div class="icon">
+      <i class="fa fa-eye"></i>
+            </div>
+            <div class="icon-info">
+            <h4>Our Visi & Misi</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <div class="icon">
+        <i class="fa fa-chevron-left"></i>
+      </div>
+      <!-- <span class="sr-only">Previous</span> -->
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <div class="icon">
+        <i class="fa fa-chevron-right"></i>
+      </div>
+      <!-- <span class="sr-only">Next</span> -->
+    </a>
+  </div>
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="col-md-4 col-sm-4">
+    <div id="Sejarah" class="tabcontent">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators ">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol> -->
+
+    <!-- Wrapper for slides -->
+    <h3 style="padding-top:20px;">Sejarah</h3>
+    <div class="carousel-inner">
+          <div class="item active">
+            <div class="icon">
+            <i class="fa fa-history"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our History</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+              <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+            </div>
+      </div>
+      
+      <div class="item">
+            <div class="icon">
+              <i class="fa fa-history"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our History</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+      </div>
+    
+      <div class="item">
+            <div class="icon">
+            <i class="fa fa-history"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our History</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+      </div>
+
+      <div class="item">
+            <div class="icon">
+              <i class="fa fa-history"></i>
+            </div>
+            <div class="icon-info">
+            <h4>Our History</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <div class="icon">
+        <i class="fa fa-chevron-left"></i>
+      </div>
+      <!-- <span class="sr-only">Previous</span> -->
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <div class="icon">
+        <i class="fa fa-chevron-right"></i>
+      </div>
+      <!-- <span class="sr-only">Next</span> -->
+    </a>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-4">
+  <div id="Salam" class="tabcontent">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators ">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol> -->
+
+    <!-- Wrapper for slides -->
+    <h3 style="padding-top:20px;">Salam Pimpinan</h3>
+    <div class="carousel-inner">
+          <div class="item active">
+            <div class="icon">
+            <i class="fa fa-book"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Regards Leader</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+              <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+            </div>
+      </div>
+      
+      <div class="item">
+            <div class="icon">
+            <i class="fa fa-book"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Regards Leader</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+      </div>
+    
+      <div class="item">
+            <div class="icon">
+            <i class="fa fa-book"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Regards Leader</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+      </div>
+
+      <div class="item">
+            <div class="icon">
+            <i class="fa fa-book"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Regards Leader</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <div class="icon">
+        <i class="fa fa-chevron-left"></i>
+      </div>
+      <!-- <span class="sr-only">Previous</span> -->
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <div class="icon">
+        <i class="fa fa-chevron-right"></i>
+      </div>
+      <!-- <span class="sr-only">Next</span> -->
+    </a>
+  </div>
+  </div>
+  </div>
+
+
+<div class="col-md-4 col-sm-4">
+    <div id="Akreditasi" class="tabcontent">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators ">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol> -->
+
+    <!-- Wrapper for slides -->
+    <h3 style="padding-top:20px;">Akreditasi</h3>
+    <div class="carousel-inner">
+      <div class="item active">
+      <div class="icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Akreditaione</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+              <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+            </div>
+      </div>
+      
+      <div class="item">
+      <div class="icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Acreditation</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default"><a href="#create">Create</a></button>
+                <button class="btn btn-primary"><a href="#update" style="color:#ffffff;">Update</a></button>
+              </div>
+      </div>
+    
+      <div class="item">
+      <div class="icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Acreditation</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+      </div>
+
+      <div class="item">
+      <div class="icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Our Acreditation</h4>
+              <p style="color:#0cb8b6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
       </div>
     </div>
 
@@ -107,8 +469,11 @@
   </div>
 </div>
 </div>
+</div>
 
-  <div class="col-md-4 col-sm-4">
+    
+
+  <!-- <div class="col-md-4 col-sm-4">
     <div id="Profil" class="tabcontent">
     <h3>Profile</h3>
     <div class="service-info">
@@ -120,8 +485,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
             </div>
           </div>  
-    </div>
-    <div id="VisiMisi" class="tabcontent">
+    </div> -->
+  <!-- <div id="VisiMisi" class="tabcontent">
   <h3>Visi & Misi</h3>
   <div class="service-info">
             <div class="icon">
@@ -132,10 +497,11 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
             </div>
           </div>
-      </div>
-      <div id="Sejarah" class="tabcontent">
-  <h3>Sejarah</h3>
-  <div class="service-info">
+      </div> -->
+
+      <!-- <div id="Sejarah" class="tabcontent">
+        <h3>Sejarah</h3>
+          <div class="service-info">
             <div class="icon">
               <i class="fa fa-history"></i>
             </div>
@@ -144,10 +510,10 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-    </div>
-    <div id="Salam" class="tabcontent">
-  <h3>Salam Pimpinan</h3>
-  <div class="service-info">
+    </div> -->
+    <!-- <div id="Salam" class="tabcontent">
+        <h3>Salam Pimpinan</h3>
+          <div class="service-info">
             <div class="icon">
               <i class="fa fa-book"></i>
             </div>
@@ -156,7 +522,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-    </div>
+    </div> -->
     <div id="Akreditasi" class="tabcontent">
   <h3>Akreditasi</h3>
   <div class="service-info">

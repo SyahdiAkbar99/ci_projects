@@ -40,19 +40,23 @@ body {font-family: "Lato", sans-serif;}
 .tabcontent {
   float: left;
   width: 100%;
-  margin-left:550px;
+  margin-left:100px;
   padding: 12px 12px;
   text-align:center;
   height: 240px;
-  margin-top:-10px;
+  margin-top:-40px;
   display: none;
   position : static;
   /* border:1px solid; */
 }
+
+.item{
+  text-align:center;
+}
  
 .carousel-inner{
-  background-color: #0cb8b6;
-  color : #0cb8b6;
+  background-color: #ffffff;
+  color : #ffffff;
 }
 
 .carousel-slide{
@@ -66,19 +70,36 @@ body {font-family: "Lato", sans-serif;}
   display: table;
 }
 .fa-chevron-left{
-  padding-top:175px;
-  padding-right:60px;
+  padding-top:90px;
+  /* padding-right:60px; */
   text-align:center;
 }
 
 .fa-chevron-right{
-  padding-top:165px;
-  padding-left:60px;
+  padding-top:90px;
+  /* padding-left:60px; */
   text-align:center;
 }
-
+.carousel-indicators{
+  padding-top:40px;
+}
 .carousel-indicators li{
   background-color:#0cb8b6;
+}
+.row:after {
+ clear: both;
+}
+#Sejarah{
+  margin-left:650px;
+  margin-top:-340px;
+}
+#Salam{
+  margin-left:190px;
+  margin-top:-340px;
+}
+#Akreditasi{
+  margin-left:-350px;
+  margin-top:-340px;
 }
   </style>
 </head>
