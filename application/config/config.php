@@ -38,7 +38,6 @@ $config['base_url'] = 'http://localhost/ci_projects/';
 
 $config['index_page'] = '';
 
-$config['index_page'] = 'index.php';
 
 
 /*

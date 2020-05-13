@@ -19,87 +19,103 @@
     Author URL: https://bootstrapmade.com
   ======================================================= -->
   <style>
-body {font-family: "Lato", sans-serif;}
+* {box-sizing: border-box}
 
+  body {font-family: "Lato", sans-serif;}
+  
+  .mySlides1, .mySlides2 {display: none}
+  
+  img {vertical-align: middle;}
+
+/* Style the tab */
 .tab {
   float: left;
-  background-color: #ffffff;
-  height: 300px;
-  position : static;
-}
-
-
-.tab button:hover {
+  border: 1px solid #ccc;
   background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
 }
 
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
 .tab button.active {
-  background-color: #0cb8b6;
+  background-color: #ccc;
 }
 
+/* Style the tab content */
 .tabcontent {
   float: left;
+  padding: 0px 12px;
+  /* border: 1px solid #ccc; */
   width: 100%;
-  margin-left:100px;
-  padding: 12px 12px;
-  text-align:center;
-  height: 240px;
-  margin-top:-40px;
-  display: none;
-  position : static;
-  /* border:1px solid; */
+  border-left: none;
+  height: 300px;
 }
 
-.item{
-  text-align:center;
-}
- 
-.carousel-inner{
-  background-color: #ffffff;
-  color : #ffffff;
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top:70px;
 }
 
-.carousel-slide{
-  top:10px;
-  position : relative;
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.fa-chevron-left{
-  padding-top:90px;
-  /* padding-right:60px; */
-  text-align:center;
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-.fa-chevron-right{
-  padding-top:90px;
-  /* padding-left:60px; */
-  text-align:center;
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
 }
-.carousel-indicators{
-  padding-top:40px;
-}
-.carousel-indicators li{
-  background-color:#0cb8b6;
-}
-.row:after {
- clear: both;
-}
-#Sejarah{
-  margin-left:650px;
-  margin-top:-340px;
-}
-#Salam{
-  margin-left:190px;
-  margin-top:-340px;
-}
-#Akreditasi{
-  margin-left:-350px;
-  margin-top:-340px;
+.text {
+  background-color:#C0fffafa;
+  color: #010102;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
   </style>
 </head>
